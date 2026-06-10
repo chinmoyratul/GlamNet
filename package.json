@@ -1,0 +1,37 @@
+{
+  "name": "glamnet",
+  "version": "1.0.0",
+  "description": "Smart Salon Network System - MERN Stack Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "client-install": "cd frontend && npm install",
+    "install-all": "npm install && cd frontend && npm install"
+  },
+  "keywords": [
+    "salon",
+    "booking",
+    "mern",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "google-auth-library": "^10.5.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.5.0",
+    "nodemailer": "^6.9.7",
+    "sentiment": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
